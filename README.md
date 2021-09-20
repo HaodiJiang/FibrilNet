@@ -38,7 +38,7 @@ https://arxiv.org/abs/2107.07886
 
 Requirements: 
 
-Tensorflow-GPU 1.12.0, Keras 2.2.4, numpy 1.16.1, skimage 0.15.0, matplotlib 3.1.0, cv2 3.4.2, astropy 4.0.1. Please use the Jupyter Notebook to run the SolarUnet tool.
+Python 3.6, Tensorflow-GPU 1.11.0, Keras 2.2.4, numpy 1.19.1, skimage 0.17.2, matplotlib 3.3.4, opencv-python 4.5.3, astropy 4.1.
 
 Usage: 
 
