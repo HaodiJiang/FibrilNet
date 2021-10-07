@@ -21,4 +21,4 @@ input_path ='data/'
 train_datagen = train_generator(1, input_path + 'train', 'image', 'label')
 model = FibrilNet()
 model_checkpoint = ModelCheckpoint('models/model1.hdf5', monitor='loss', verbose=1, save_best_only=True)
-model.fit_generator(train_datagen, steps_per_epoch=2, epochs=10, verbose=2, callbacks=[model_checkpoint])
+model.fit_generator(train_datagen, steps_per_epoch=1000, epochs=10, verbose=2, callbacks=[model_checkpoint])
