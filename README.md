@@ -42,12 +42,10 @@ Python 3.6, Tensorflow-GPU 1.11.0, Keras 2.2.4, numpy 1.19.1, skimage 0.17.2, ma
 
 Usage: 
 
-Usage: 
-
 The source code package contains the following folders/directories. 
 
 1. The “data” folder contains two sub-folders “train” and “test”. The “train” folder contains training images and labels, and the "test" folder contains testing samples from BBSO/GST. 
-2. The “models” folder contains the trained model. You may directly use the pre-trained model “model.hdf5” to trace fibrils on the testing samples. 
+2. The “models” folder contains the trained model (Create by yourself). You may directly use the pre-trained model “model.hdf5” to trace fibrils on the testing samples. (Due to the uploading file limitation of github, you may have to go here to download)
 3. The “results” folder contains three sub-folders, “fibrils_on_ha”, “predicted_mask” and “uncertainty”. The testing results will be output to these folders after running the code.
 
 Run “train.py” to train the model if you want to re-train the model. You may save the model with a different name by modifying the name in the code. Here, we use “model1.hdf5” as the default value.
